@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "morningstar covenant int'l church" },
+      { name: "description", content: "Morningstar App Connect is a modern church website with an app-like UI/UX." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "morningstar covenant int'l church" },
+      { property: "og:description", content: "Morningstar App Connect is a modern church website with an app-like UI/UX." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "morningstar covenant int'l church" },
+      { name: "twitter:description", content: "Morningstar App Connect is a modern church website with an app-like UI/UX." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/679e3760-92ef-4db6-ad3d-277080a24a95/id-preview-1cc2ba12--c5118ad2-722e-44d8-9800-0357d9b2c4dc.lovable.app-1776462363684.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/679e3760-92ef-4db6-ad3d-277080a24a95/id-preview-1cc2ba12--c5118ad2-722e-44d8-9800-0357d9b2c4dc.lovable.app-1776462363684.png" },
     ],
     links: [
       {
