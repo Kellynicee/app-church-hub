@@ -17,13 +17,20 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 
-const primaryNav = [
+type NavItem = {
+  to: "/" | "/sermons" | "/check-in" | "/give" | "/events";
+  label: string;
+  icon: typeof Home;
+  highlight?: boolean;
+};
+
+const primaryNav: NavItem[] = [
   { to: "/", label: "Home", icon: Home },
   { to: "/sermons", label: "Sermons", icon: PlayCircle },
   { to: "/check-in", label: "Check-In", icon: QrCode, highlight: true },
   { to: "/give", label: "Give", icon: HandHeart },
   { to: "/events", label: "Events", icon: CalendarDays },
-] as const;
+];
 
 const drawerNav = [
   { to: "/", label: "Home", icon: Home },
