@@ -63,10 +63,10 @@ function About() {
         ))}
       </section>
 
-      <section className="rounded-3xl bg-hero p-6 text-primary-foreground shadow-elegant">
+      <section className="rounded-3xl bg-hero p-6 text-white shadow-elegant">
         <p className="text-xs uppercase tracking-[0.3em] text-gold">Lead Pastors</p>
         <p className="mt-2 font-display text-2xl">Ps. Daniel & Grace Okoye</p>
-        <p className="mt-2 text-sm opacity-85">
+        <p className="mt-2 text-sm text-white/85">
           Passionate about the glory of God, family discipleship and raising young leaders.
         </p>
       </section>
