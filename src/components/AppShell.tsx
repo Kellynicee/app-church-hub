@@ -242,11 +242,11 @@ export function AppShell() {
                 })}
               </ul>
 
-              <div className="mt-8 rounded-3xl bg-hero p-5 text-primary-foreground shadow-elegant">
+              <div className="mt-8 rounded-3xl bg-hero p-5 text-white shadow-elegant">
                 <p className="font-display text-lg leading-tight">
                   "Arise, shine; for thy light is come."
                 </p>
-                <p className="mt-2 text-xs opacity-80">— Isaiah 60:1</p>
+                <p className="mt-2 text-xs text-white/80">— Isaiah 60:1</p>
               </div>
             </motion.aside>
           </>
